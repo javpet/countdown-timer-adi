@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Denton";
+  src: local("Denton"),
+    url("https://esm.glass.adidas.com/@adl/assets-zh@1.0.0/fonts/DentonLight.otf ")
+      format("opentype") tech(color-COLRv1),
+    url("https://esm.glass.adidas.com/@adl/assets-zh@1.0.0/fonts/DentonLight.otf ")
+      format("opentype");
+}
+
+@font-face {
+  font-family: "adihausDIN-regular";
+  src: local("adihausDIN-regular"),
+    url("https://adl-foundation.adidas.com/fonts/adidas/2-4-0/AdihausDIN-Regular.ttf")
+      format("truetype") tech(color-COLRv1),
+    url("https://adl-foundation.adidas.com/fonts/adidas/2-4-0/AdihausDIN-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "adihausDIN-bold";
+  src: local("adihausDIN-regular"),
+    url("https://adl-foundation.adidas.com/fonts/adidas/2-4-0/AdihausDIN-Bold.woff2")
+      format("woff2") tech(color-COLRv1),
+    url("https://adl-foundation.adidas.com/fonts/adidas/2-4-0/AdihausDIN-Bold.woff2")
+      format("woff2");
+}
+
+body {
+  font-family: "adihausDIN-regular";
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Denton", sans-serif;
+  color: #000;
+  line-height: 105%;
+}
+
+h1 {
+}
+
+h2 {
+  font-size: 18vh;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main div {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main div {
+  margin-top: 48px;
+}
+
+main .dot {
+  margin-top: 48px;
+}
+
+.value {
+  margin-top: 32px;
+}
