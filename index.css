@@ -51,7 +51,7 @@ h2 {
 main {
   width: 100vw;
   height: 100vh;
-  background: yellow;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
